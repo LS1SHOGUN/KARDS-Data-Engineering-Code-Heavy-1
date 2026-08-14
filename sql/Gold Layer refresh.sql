@@ -1,3 +1,5 @@
+--Also Named as Gold_Warehouse_build.sql
+
 TRUNCATE TABLE GOLD.spawn_chain;
 INSERT INTO GOLD.spawn_chain
 SELECT k.CardId, k.CardName, k.CardType, k.CardNation, k.CardRarity,
