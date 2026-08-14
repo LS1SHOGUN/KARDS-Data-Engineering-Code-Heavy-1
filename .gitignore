@@ -1,0 +1,27 @@
+# Secrets / auth
+auth_record.json
+*.env
+.env
+
+# Logs
+*.log
+KARDSLOG.txt
+
+# Data files (exported locally, not meant to live in source control)
+*.parquet
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
