@@ -12,7 +12,7 @@ in a Fabric Lakehouse (Bronze), cleans and shapes it (Silver), then builds
 analysis-ready Gold tables two ways — once in PySpark (Lakehouse) and once in T-SQL
 (Warehouse) — before surfacing everything in Power BI.
 
-Full write-up: [`doc/project_documentation.md`](docs/project_documentation.md)
+Full write-up: [`doc/project_documentation.md`](doc/project_documentation.md)
 
 ## Architecture
 
