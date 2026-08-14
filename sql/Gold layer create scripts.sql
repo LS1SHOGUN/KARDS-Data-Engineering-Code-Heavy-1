@@ -1,3 +1,5 @@
+----Also Named as Gold_Warehouse_refresh.sql
+
 CREATE schema GOLD;
 
 create table GOLD.spawn_chain
