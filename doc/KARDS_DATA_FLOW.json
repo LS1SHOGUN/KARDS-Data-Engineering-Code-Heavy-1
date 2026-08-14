@@ -1,0 +1,70 @@
+{
+    "name": "KARDS_DATAFLOW",
+    "objectId": "66119cd0-0b3c-4d21-b692-82bc741165ab",
+    "properties": {
+        "activities": [
+            {
+                "name": "Medallion",
+                "description": "runs all bronze silver and gold process in batch",
+                "type": "TridentNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "typeProperties": {
+                    "notebookId": "???",
+                    "workspaceId": "???"
+                }
+            },
+            {
+                "name": "Gold T-SQL",
+                "type": "Script",
+                "dependsOn": [
+                    {
+                        "activity": "Medallion",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "linkedService": {
+                    "name": "KardsWarehouse",
+                    "properties": {
+                        "annotations": [],
+                        "type": "DataWarehouse",
+                        "typeProperties": {
+                            "endpoint": "???",
+                            "artifactId": "???",
+                            "workspaceId": "???"
+                        }
+                    }
+                },
+                "typeProperties": {
+                    "scripts": [
+                        {
+                            "type": "Query",
+                            "text": {
+                                "value": "TRUNCATE TABLE GOLD.spawn_chain;\nINSERT INTO GOLD.spawn_chain\nSELECT k.CardId, k.CardName, k.CardType, k.CardNation, k.CardRarity,\n    k.CardSubType, k.CostToPlay, k.CostToOperate, k.Attack, k.HitPoint,\n    k.Keywords, k.CardEffect, k.IsVeteran, k.VeteranCostToOperate,\n    k.VeteranAttack, k.VeteranHitPoint, k.VeteranKeywords, k.VeteranEffect,\n    k.Status, k.Expansion, k.IsPermanentPool, k.IsSpawnable, k.IsForecastable,\n    s.SpawnCardName, s.SpawnCardType, s.SpawnKeywords, s.SpawnCardCost,\n    s.SpawnCostToOperate, s.SpawnAttack, s.SpawnHitPoint, s.SpawnCardEffect,\n    s.Spawn6KCardName, s.Spawn6KCardEffect, s.Spawn9KCardName, s.Spawn9KCardEffect,\n    s.Spawn12KCardName, s.Spawn12KCardEffect, s.childcardid, cast(GETDATE() as date)\nFROM KardsLakehouse.silver.kards k\nJOIN KardsLakehouse.silver.spawnables s ON k.CardId = s.CardId\nWHERE k.IsSpawnable = 1;\n\nTRUNCATE TABLE GOLD.eligible_for_forecast;\nINSERT INTO GOLD.eligible_for_forecast\nSELECT * FROM KardsLakehouse.silver.kards WHERE IsForecastable = 1;\n\nTRUNCATE TABLE GOLD.veteran_cards;\nINSERT INTO GOLD.veteran_cards\nSELECT * FROM KardsLakehouse.silver.kards WHERE IsVeteran = 1;\n\nTRUNCATE TABLE GOLD.permanent_pool_cards;\nINSERT INTO GOLD.permanent_pool_cards\nSELECT * FROM KardsLakehouse.silver.kards WHERE IsPermanentPool = 1;\n\nTRUNCATE TABLE GOLD.kards;\nINSERT INTO GOLD.kards\nSELECT * FROM KardsLakehouse.silver.kards;\n\nTRUNCATE TABLE GOLD.spawnables;\nINSERT INTO GOLD.spawnables\nSELECT * FROM KardsLakehouse.silver.spawnables;\n\nTRUNCATE TABLE GOLD.forecast;\nINSERT INTO GOLD.forecast\nSELECT * FROM KardsLakehouse.silver.forecast;",
+                                "type": "Expression"
+                            }
+                        }
+                    ],
+                    "scriptBlockExecutionTimeout": "02:00:00"
+                }
+            }
+        ],
+        "lastModifiedByObjectId": "f92446c3-b711-4ab3-9917-6dec2cf18f87",
+        "lastPublishTime": "2026-08-13T13:25:16Z"
+    }
+}
