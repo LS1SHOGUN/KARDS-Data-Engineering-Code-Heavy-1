@@ -1,5 +1,4 @@
 ----Also Named as Gold_Warehouse_refresh.sql
-
 CREATE schema GOLD;
 
 create table GOLD.spawn_chain
@@ -36,9 +35,22 @@ select *
 from KardsLakehouse.silver.kards k
 where k.IsPermanentPool = 1;
 
+create table GOLD.exile_data
+AS
+select k.CardId, k.CardName, k.CardType, k.CardNation, k.CardRarity,
+    k.CardSubType, k.CostToPlay, k.CostToOperate, k.Attack, k.HitPoint,
+    k.Keywords, k.CardEffect, k.IsVeteran, k.VeteranCostToOperate,
+    k.VeteranAttack, k.VeteranHitPoint, k.VeteranKeywords, k.VeteranEffect,
+    k.Status, k.Expansion, k.IsPermanentPool, k.IsSpawnable, k.IsForecastable,e.ExileCardId,e.AlsoUsedBy
+from KardsLakehouse.silver.kards k
+join KardsLakehouse.silver.exile e on k.CardId = e.CardId
+
 create table GOLD.kards as SELECT * from KardsLakehouse.silver.kards;
 create table GOLD.spawnables as SELECT * from KardsLakehouse.silver.spawnables;
 create table GOLD.forecast as SELECT * from KardsLakehouse.silver.forecast;
+create table GOLD.exile as SELECT * from KardsLakehouse.silver.exile;
+create table GOLD.synergy_tag_rules as SELECT * from KardsLakehouse.silver.synergy_tag_rules;
+create table GOLD.synergy_combo_rules as SELECT * from KardsLakehouse.silver.synergy_combo_rules;
 
 
 
