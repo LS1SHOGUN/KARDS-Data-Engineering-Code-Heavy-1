@@ -1,0 +1,8 @@
+[project]
+name = "kards-data-engineering-code-heavy-1"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.5",
+    "sqlalchemy>=2.0.52",
+]

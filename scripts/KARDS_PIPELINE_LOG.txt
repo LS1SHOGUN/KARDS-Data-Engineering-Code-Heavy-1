@@ -1,0 +1,380 @@
+2026-08-22 16:17:25,448 - INFO - Pipeline started
+2026-08-22 16:17:25,449 - INFO - Fetching data from KARDS
+2026-08-22 16:17:25,750 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-22 16:17:25,750 - INFO - Fetching data from SPAWNABLES
+2026-08-22 16:17:25,765 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-22 16:17:25,765 - INFO - Fetching data from FORECAST
+2026-08-22 16:17:25,774 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-22 16:17:25,774 - INFO - Fetching data from EXILE
+2026-08-22 16:17:25,782 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-22 16:17:25,783 - INFO - Fetching data from SYNERGY_TAG_RULES
+2026-08-22 16:17:25,790 - INFO - Fetching data from SYNERGY_TAG_RULES complete as file SYNERGY_TAG_RULES.parquet
+2026-08-22 16:17:25,790 - INFO - Fetching data from SYNERGY_COMBO_RULES
+2026-08-22 16:17:25,796 - INFO - Fetching data from SYNERGY_COMBO_RULES complete as file SYNERGY_COMBO_RULES.parquet
+2026-08-22 16:17:25,797 - INFO - Pipeline completed
+2026-08-23 16:27:50,565 - INFO - Pipeline started
+2026-08-23 16:27:50,569 - INFO - Fetching data from KARDS
+2026-08-23 16:43:53,689 - INFO - Pipeline started
+2026-08-23 16:43:53,690 - INFO - Fetching data from KARDS
+2026-08-23 16:44:10,634 - INFO - Pipeline started
+2026-08-23 16:44:10,637 - INFO - Fetching data from KARDS
+2026-08-23 16:53:50,265 - INFO - Pipeline started
+2026-08-23 16:53:50,268 - INFO - Fetching data from KARDS
+2026-08-23 17:05:18,305 - INFO - Pipeline started
+2026-08-23 17:05:18,313 - INFO - Fetching data from KARDS
+2026-08-23 17:21:18,244 - INFO - Pipeline started
+2026-08-23 17:21:18,246 - INFO - Fetching data from KARDS
+2026-08-23 17:28:45,764 - INFO - Pipeline started
+2026-08-23 17:28:45,765 - INFO - Fetching data from KARDS
+2026-08-23 17:38:41,523 - INFO - Pipeline started
+2026-08-23 17:38:41,530 - INFO - Fetching data from KARDS
+2026-08-23 17:38:43,619 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-23 17:38:43,622 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-23 17:38:43,802 - WARNING - InteractiveBrowserCredential.get_token_info failed: Authentication failed: Cache encryption is impossible because libsecret dependencies are not installed or are unusable, for example because no display is available (as in an SSH session). The chained exception has more information. Specify "allow_unencrypted_storage=True" to store the cache unencrypted instead of raising this exception.
+2026-08-23 17:39:04,399 - WARNING - InteractiveBrowserCredential.get_token_info failed: Authentication failed: Cache encryption is impossible because libsecret dependencies are not installed or are unusable, for example because no display is available (as in an SSH session). The chained exception has more information. Specify "allow_unencrypted_storage=True" to store the cache unencrypted instead of raising this exception.
+2026-08-23 17:39:28,676 - WARNING - InteractiveBrowserCredential.get_token_info failed: Authentication failed: Cache encryption is impossible because libsecret dependencies are not installed or are unusable, for example because no display is available (as in an SSH session). The chained exception has more information. Specify "allow_unencrypted_storage=True" to store the cache unencrypted instead of raising this exception.
+2026-08-23 17:40:13,509 - WARNING - InteractiveBrowserCredential.get_token_info failed: Authentication failed: Cache encryption is impossible because libsecret dependencies are not installed or are unusable, for example because no display is available (as in an SSH session). The chained exception has more information. Specify "allow_unencrypted_storage=True" to store the cache unencrypted instead of raising this exception.
+2026-08-23 17:46:58,745 - INFO - Pipeline started
+2026-08-23 17:46:58,747 - INFO - Fetching data from KARDS
+2026-08-23 17:46:59,427 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-23 17:46:59,428 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-23 17:47:01,985 - WARNING - InteractiveBrowserCredential.get_token_info failed: Failed to open a browser
+2026-08-23 17:47:20,265 - WARNING - InteractiveBrowserCredential.get_token_info failed: Failed to open a browser
+2026-08-23 17:47:44,189 - WARNING - InteractiveBrowserCredential.get_token_info failed: Failed to open a browser
+2026-08-23 17:48:25,717 - WARNING - InteractiveBrowserCredential.get_token_info failed: Failed to open a browser
+2026-08-24 00:00:03,600 - INFO - Pipeline started
+2026-08-24 00:00:03,602 - INFO - Fetching data from KARDS
+2026-08-24 00:00:36,604 - INFO - Pipeline started
+2026-08-24 00:00:36,605 - INFO - Fetching data from KARDS
+2026-08-24 00:00:38,642 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:00:38,642 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:00:40,142 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '2f782376-de40-4e3f-b797-1e72cee75ef2'. Trace ID: 516558aa-0692-434f-a9fb-ddb2e35e5900 Correlation ID: 8f62113c-a858-4b49-80b4-02309a00487c Timestamp: 2026-08-23 18:30:39Z
+2026-08-24 00:00:59,486 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '2f782376-de40-4e3f-b797-1e72cee75ef2'. Trace ID: 04706a24-127b-4792-806b-ad29dfdd5100 Correlation ID: 12fa0c8a-758e-4ded-b595-d426c7d96e26 Timestamp: 2026-08-23 18:30:59Z
+2026-08-24 00:01:22,328 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '2f782376-de40-4e3f-b797-1e72cee75ef2'. Trace ID: edeca15e-07ba-464b-8079-f67414eb4b00 Correlation ID: 63bed155-c20d-43b3-9b8f-14c10ca8c6b1 Timestamp: 2026-08-23 18:31:22Z
+2026-08-24 00:02:04,201 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: AADSTS7000215: Invalid client secret provided. Ensure the secret being sent in the request is the client secret value, not the client secret ID, for a secret added to app '2f782376-de40-4e3f-b797-1e72cee75ef2'. Trace ID: e1751a87-a7fc-4e64-8c71-afb6c1bf5a00 Correlation ID: 29b7180d-e458-4a99-9c93-1640764ac0cc Timestamp: 2026-08-23 18:32:04Z
+2026-08-24 00:11:45,910 - INFO - Pipeline started
+2026-08-24 00:11:45,912 - INFO - Fetching data from KARDS
+2026-08-24 00:12:10,395 - INFO - Pipeline started
+2026-08-24 00:12:10,396 - INFO - Fetching data from KARDS
+2026-08-24 00:12:11,392 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:12:11,392 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:15:39,277 - INFO - Pipeline started
+2026-08-24 00:15:39,278 - INFO - Fetching data from KARDS
+2026-08-24 00:15:40,148 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:15:40,148 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:16:18,441 - INFO - Pipeline started
+2026-08-24 00:16:18,441 - INFO - Fetching data from KARDS
+2026-08-24 00:16:19,012 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:16:19,013 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:18:18,958 - INFO - Pipeline started
+2026-08-24 00:18:18,960 - INFO - Fetching data from KARDS
+2026-08-24 00:18:20,134 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:18:20,134 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:18:21,762 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-24 00:18:51,763 - INFO - Fetching data from SPAWNABLES
+2026-08-24 00:18:51,798 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-24 00:18:51,798 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-24 00:18:51,995 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-24 00:19:21,997 - INFO - Fetching data from FORECAST
+2026-08-24 00:19:22,015 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-24 00:19:22,015 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-24 00:19:22,211 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-24 00:19:52,213 - INFO - Fetching data from EXILE
+2026-08-24 00:19:52,233 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-24 00:19:52,233 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-24 00:19:52,456 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-24 00:20:22,457 - INFO - Fetching data from SYNERGY_TAG_RULES
+2026-08-24 00:20:22,481 - INFO - Fetching data from SYNERGY_TAG_RULES complete as file SYNERGY_TAG_RULES.parquet
+2026-08-24 00:20:22,482 - INFO - Loading into Lakehouse for file SYNERGY_TAG_RULES.parquet is started
+2026-08-24 00:20:22,762 - INFO - Loading into Lakehouse for file SYNERGY_TAG_RULES.parquet is completed
+2026-08-24 00:20:52,763 - INFO - Fetching data from SYNERGY_COMBO_RULES
+2026-08-24 00:20:52,779 - INFO - Fetching data from SYNERGY_COMBO_RULES complete as file SYNERGY_COMBO_RULES.parquet
+2026-08-24 00:20:52,779 - INFO - Loading into Lakehouse for file SYNERGY_COMBO_RULES.parquet is started
+2026-08-24 00:20:52,975 - INFO - Loading into Lakehouse for file SYNERGY_COMBO_RULES.parquet is completed
+2026-08-24 00:21:22,976 - INFO - Pipeline completed
+2026-08-24 00:22:06,677 - INFO - Pipeline started
+2026-08-24 00:22:06,677 - INFO - Fetching data from KARDS
+2026-08-24 00:22:07,098 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:22:07,098 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:23:24,703 - INFO - Pipeline started
+2026-08-24 00:23:24,703 - INFO - Fetching data from KARDS
+2026-08-24 00:23:25,381 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:23:25,381 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:25:12,294 - INFO - Pipeline started
+2026-08-24 00:25:12,294 - INFO - Fetching data from KARDS
+2026-08-24 00:25:12,902 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:25:12,902 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:26:02,597 - INFO - Pipeline started
+2026-08-24 00:26:02,598 - INFO - Fetching data from KARDS
+2026-08-24 00:26:03,090 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:26:03,091 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:27:08,369 - INFO - Pipeline started
+2026-08-24 00:27:08,370 - INFO - Fetching data from KARDS
+2026-08-24 00:27:08,805 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:27:08,805 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:27:53,115 - INFO - Pipeline started
+2026-08-24 00:27:53,115 - INFO - Fetching data from KARDS
+2026-08-24 00:27:53,507 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:27:53,507 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:29:10,437 - INFO - Pipeline started
+2026-08-24 00:29:10,437 - INFO - Fetching data from KARDS
+2026-08-24 00:29:10,920 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:29:10,921 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:29:12,670 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-24 00:29:42,671 - INFO - Fetching data from SPAWNABLES
+2026-08-24 00:29:42,699 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-24 00:29:42,699 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-24 00:29:42,903 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-24 00:34:01,515 - INFO - Pipeline started
+2026-08-24 00:34:01,517 - INFO - Fetching data from KARDS
+2026-08-24 00:34:03,130 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:34:03,130 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:34:08,027 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno 11001] getaddrinfo failed)
+2026-08-24 00:34:28,502 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno 11001] getaddrinfo failed)
+2026-08-24 00:34:54,691 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno 11001] getaddrinfo failed)
+2026-08-24 00:35:54,504 - INFO - Pipeline started
+2026-08-24 00:35:54,505 - INFO - Fetching data from KARDS
+2026-08-24 00:35:55,326 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-24 00:35:55,326 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-24 00:35:58,885 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-24 00:36:28,895 - INFO - Fetching data from SPAWNABLES
+2026-08-24 00:36:35,198 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-24 00:36:35,199 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-24 00:36:36,376 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-24 00:37:06,378 - INFO - Fetching data from FORECAST
+2026-08-24 00:37:06,399 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-24 00:37:06,399 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-24 00:37:06,967 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-24 00:37:36,969 - INFO - Fetching data from EXILE
+2026-08-24 00:37:37,020 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-24 00:37:37,021 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-24 00:37:37,490 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-24 00:38:07,491 - INFO - Fetching data from SYNERGY_TAG_RULES
+2026-08-24 00:38:07,505 - INFO - Fetching data from SYNERGY_TAG_RULES complete as file SYNERGY_TAG_RULES.parquet
+2026-08-24 00:38:07,505 - INFO - Loading into Lakehouse for file SYNERGY_TAG_RULES.parquet is started
+2026-08-24 00:38:08,521 - INFO - Loading into Lakehouse for file SYNERGY_TAG_RULES.parquet is completed
+2026-08-24 00:38:38,522 - INFO - Fetching data from SYNERGY_COMBO_RULES
+2026-08-24 00:38:38,546 - INFO - Fetching data from SYNERGY_COMBO_RULES complete as file SYNERGY_COMBO_RULES.parquet
+2026-08-24 00:38:38,546 - INFO - Loading into Lakehouse for file SYNERGY_COMBO_RULES.parquet is started
+2026-08-24 00:38:39,246 - INFO - Loading into Lakehouse for file SYNERGY_COMBO_RULES.parquet is completed
+2026-08-24 00:39:09,247 - INFO - Pipeline completed
+2026-08-23 19:12:59,877 - INFO - Pipeline started
+2026-08-23 19:12:59,878 - INFO - Fetching data from KARDS
+2026-08-23 19:13:01,294 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-23 19:13:01,296 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-23 19:13:28,248 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-23 19:13:58,247 - INFO - Fetching data from SPAWNABLES
+2026-08-23 19:13:58,369 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-23 19:13:58,370 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-23 19:14:04,490 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-23 19:14:34,488 - INFO - Fetching data from FORECAST
+2026-08-23 19:14:34,526 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-23 19:14:34,527 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-23 19:14:35,353 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-23 19:15:05,351 - INFO - Fetching data from EXILE
+2026-08-23 19:15:05,472 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-23 19:15:05,473 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-23 19:15:06,079 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-23 19:15:36,078 - INFO - Fetching data from SYNERGY_TAG_RULES
+2026-08-23 19:15:36,117 - INFO - Fetching data from SYNERGY_TAG_RULES complete as file SYNERGY_TAG_RULES.parquet
+2026-08-23 19:15:36,118 - INFO - Loading into Lakehouse for file SYNERGY_TAG_RULES.parquet is started
+2026-08-23 19:15:36,898 - INFO - Loading into Lakehouse for file SYNERGY_TAG_RULES.parquet is completed
+2026-08-23 19:16:06,896 - INFO - Fetching data from SYNERGY_COMBO_RULES
+2026-08-23 19:16:06,958 - INFO - Fetching data from SYNERGY_COMBO_RULES complete as file SYNERGY_COMBO_RULES.parquet
+2026-08-23 19:16:06,959 - INFO - Loading into Lakehouse for file SYNERGY_COMBO_RULES.parquet is started
+2026-08-23 19:16:07,721 - INFO - Loading into Lakehouse for file SYNERGY_COMBO_RULES.parquet is completed
+2026-08-23 19:16:37,719 - INFO - Pipeline completed
+2026-08-24 15:24:45,870 - INFO - Pipeline started
+2026-08-24 15:24:45,873 - INFO - Fetching data from RETRIBUTION
+2026-08-25 07:54:58,160 - INFO - Pipeline started
+2026-08-25 07:54:58,161 - INFO - Fetching data from RETRIBUTION
+2026-08-25 07:54:58,509 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-25 07:54:58,510 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-25 07:55:01,450 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is completed
+2026-08-25 07:55:31,451 - INFO - Fetching data from CARD_ARCHETYPES
+2026-08-25 07:55:31,829 - INFO - Fetching data from CARD_ARCHETYPES complete as file CARD_ARCHETYPES.parquet
+2026-08-25 07:55:31,829 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is started
+2026-08-25 07:55:32,126 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is completed
+2026-08-25 07:56:02,128 - INFO - Fetching data from SPAWNABLE_ARCHETYPES
+2026-08-25 07:56:02,164 - INFO - Fetching data from SPAWNABLE_ARCHETYPES complete as file SPAWNABLE_ARCHETYPES.parquet
+2026-08-25 07:56:02,165 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is started
+2026-08-25 07:56:02,481 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is completed
+2026-08-25 07:56:32,482 - INFO - Fetching data from FORECAST_ARCHETYPES
+2026-08-25 07:56:32,508 - INFO - Fetching data from FORECAST_ARCHETYPES complete as file FORECAST_ARCHETYPES.parquet
+2026-08-25 07:56:32,508 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is started
+2026-08-25 07:56:32,897 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is completed
+2026-08-25 07:57:02,897 - INFO - Fetching data from RETRIBUTION_ARCHETYPES
+2026-08-25 07:57:02,940 - INFO - Fetching data from RETRIBUTION_ARCHETYPES complete as file RETRIBUTION_ARCHETYPES.parquet
+2026-08-25 07:57:02,940 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is started
+2026-08-25 07:57:03,414 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is completed
+2026-08-25 07:57:33,415 - INFO - Fetching data from KARDS
+2026-08-25 07:57:33,573 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-25 07:57:33,573 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-25 07:57:33,929 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-25 07:58:03,930 - INFO - Fetching data from SPAWNABLES
+2026-08-25 07:58:03,994 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-25 07:58:03,995 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-25 07:58:04,343 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-25 07:58:34,345 - INFO - Fetching data from FORECAST
+2026-08-25 07:58:34,388 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-25 07:58:34,388 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-25 07:58:35,064 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-25 07:59:05,065 - INFO - Fetching data from EXILE
+2026-08-25 07:59:05,107 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-25 07:59:05,108 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-25 07:59:05,541 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-25 07:59:35,542 - INFO - Pipeline completed
+2026-08-25 18:19:12,326 - INFO - Pipeline started
+2026-08-25 18:19:12,327 - INFO - Fetching data from RETRIBUTION
+2026-08-25 18:21:21,007 - INFO - Pipeline started
+2026-08-25 18:21:21,010 - INFO - Fetching data from RETRIBUTION
+2026-08-25 18:21:21,562 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-25 18:21:21,563 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-25 18:21:29,216 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is completed
+2026-08-25 18:21:59,206 - INFO - Fetching data from CARD_ARCHETYPES
+2026-08-25 18:21:59,557 - INFO - Fetching data from CARD_ARCHETYPES complete as file CARD_ARCHETYPES.parquet
+2026-08-25 18:21:59,558 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is started
+2026-08-25 18:21:59,846 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is completed
+2026-08-25 18:22:29,841 - INFO - Fetching data from SPAWNABLE_ARCHETYPES
+2026-08-25 18:22:29,933 - INFO - Fetching data from SPAWNABLE_ARCHETYPES complete as file SPAWNABLE_ARCHETYPES.parquet
+2026-08-25 18:22:29,938 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is started
+2026-08-25 18:22:30,347 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is completed
+2026-08-25 18:23:00,338 - INFO - Fetching data from FORECAST_ARCHETYPES
+2026-08-25 18:23:00,395 - INFO - Fetching data from FORECAST_ARCHETYPES complete as file FORECAST_ARCHETYPES.parquet
+2026-08-25 18:23:00,396 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is started
+2026-08-25 18:23:00,761 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is completed
+2026-08-25 18:23:30,755 - INFO - Fetching data from RETRIBUTION_ARCHETYPES
+2026-08-25 18:23:30,811 - INFO - Fetching data from RETRIBUTION_ARCHETYPES complete as file RETRIBUTION_ARCHETYPES.parquet
+2026-08-25 18:23:30,812 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is started
+2026-08-25 18:23:31,385 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is completed
+2026-08-25 18:24:01,378 - INFO - Fetching data from KARDS
+2026-08-25 18:24:01,679 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-25 18:24:01,680 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-25 18:24:02,313 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-25 18:24:32,306 - INFO - Fetching data from SPAWNABLES
+2026-08-25 18:24:32,499 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-25 18:24:32,501 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-25 18:24:33,269 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-25 18:25:03,262 - INFO - Fetching data from FORECAST
+2026-08-25 18:25:03,729 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-25 18:25:03,731 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-25 18:25:04,366 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-25 18:25:34,363 - INFO - Fetching data from EXILE
+2026-08-25 18:25:34,453 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-25 18:25:34,454 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-25 18:25:34,980 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-25 18:26:04,975 - INFO - Pipeline completed
+2026-08-26 06:24:44,115 - INFO - Pipeline started
+2026-08-26 06:24:44,120 - INFO - Fetching data from RETRIBUTION
+2026-08-26 06:24:49,080 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-26 06:24:49,083 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-26 06:24:54,995 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-26 06:25:16,853 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-26 06:25:47,432 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-26 06:26:31,627 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-26 06:28:45,547 - INFO - Pipeline started
+2026-08-26 06:28:45,552 - INFO - Fetching data from RETRIBUTION
+2026-08-26 06:28:45,913 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-26 06:28:45,916 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-26 06:28:50,963 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-26 07:41:04,163 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-26 07:43:24,618 - INFO - Pipeline started
+2026-08-26 07:43:24,640 - INFO - Fetching data from RETRIBUTION
+2026-08-26 07:43:25,472 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-26 07:43:25,473 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-26 07:43:32,976 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is completed
+2026-08-26 07:43:37,977 - INFO - Fetching data from CARD_ARCHETYPES
+2026-08-26 07:43:38,616 - INFO - Fetching data from CARD_ARCHETYPES complete as file CARD_ARCHETYPES.parquet
+2026-08-26 07:43:38,618 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is started
+2026-08-26 07:43:39,443 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is completed
+2026-08-26 07:43:44,461 - INFO - Fetching data from SPAWNABLE_ARCHETYPES
+2026-08-26 07:43:44,767 - INFO - Fetching data from SPAWNABLE_ARCHETYPES complete as file SPAWNABLE_ARCHETYPES.parquet
+2026-08-26 07:43:44,779 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is started
+2026-08-26 07:43:45,653 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is completed
+2026-08-26 07:43:50,655 - INFO - Fetching data from FORECAST_ARCHETYPES
+2026-08-26 07:43:50,815 - INFO - Fetching data from FORECAST_ARCHETYPES complete as file FORECAST_ARCHETYPES.parquet
+2026-08-26 07:43:50,817 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is started
+2026-08-26 07:43:51,800 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is completed
+2026-08-26 07:43:56,810 - INFO - Fetching data from RETRIBUTION_ARCHETYPES
+2026-08-26 07:43:57,236 - INFO - Fetching data from RETRIBUTION_ARCHETYPES complete as file RETRIBUTION_ARCHETYPES.parquet
+2026-08-26 07:43:57,238 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is started
+2026-08-26 07:43:58,380 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is completed
+2026-08-26 07:44:03,304 - INFO - Fetching data from KARDS
+2026-08-26 07:44:04,163 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-26 07:44:04,164 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-26 07:44:07,900 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-26 07:44:12,902 - INFO - Fetching data from SPAWNABLES
+2026-08-26 07:44:13,318 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-26 07:44:13,319 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-26 07:44:14,584 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-26 07:44:19,585 - INFO - Fetching data from FORECAST
+2026-08-26 07:44:19,788 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-26 07:44:19,791 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-26 07:44:20,927 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-26 07:44:25,943 - INFO - Fetching data from EXILE
+2026-08-26 07:44:26,221 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-26 07:44:26,222 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-26 07:44:27,684 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-26 07:44:32,655 - INFO - Pipeline completed
+2026-08-27 06:44:59,790 - INFO - Pipeline started
+2026-08-27 06:44:59,792 - INFO - Fetching data from RETRIBUTION
+2026-08-27 06:45:00,232 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-27 06:45:00,244 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-27 06:45:05,164 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:45:28,538 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:45:58,780 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:46:44,065 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:48:50,623 - INFO - Pipeline started
+2026-08-27 06:48:50,623 - INFO - Fetching data from RETRIBUTION
+2026-08-27 06:48:50,737 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-27 06:48:50,738 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-27 06:48:55,594 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:49:17,451 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:49:46,093 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:50:34,079 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:52:37,920 - INFO - Pipeline started
+2026-08-27 06:52:37,921 - INFO - Fetching data from RETRIBUTION
+2026-08-27 06:52:38,026 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-27 06:52:38,026 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-27 06:52:42,869 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:53:04,232 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:53:35,107 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:54:20,043 - WARNING - ClientSecretCredential.get_token_info failed: Authentication failed: HTTPSConnection(host='login.microsoftonline.com', port=443): Failed to resolve 'login.microsoftonline.com' ([Errno -2] Name or service not known)
+2026-08-27 06:56:24,662 - INFO - Pipeline started
+2026-08-27 06:56:24,663 - INFO - Fetching data from RETRIBUTION
+2026-08-27 06:56:24,778 - INFO - Fetching data from RETRIBUTION complete as file RETRIBUTION.parquet
+2026-08-27 06:56:24,779 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is started
+2026-08-27 06:56:27,613 - INFO - Loading into Lakehouse for file RETRIBUTION.parquet is completed
+2026-08-27 06:56:32,614 - INFO - Fetching data from CARD_ARCHETYPES
+2026-08-27 06:56:32,755 - INFO - Fetching data from CARD_ARCHETYPES complete as file CARD_ARCHETYPES.parquet
+2026-08-27 06:56:32,756 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is started
+2026-08-27 06:56:33,843 - INFO - Loading into Lakehouse for file CARD_ARCHETYPES.parquet is completed
+2026-08-27 06:56:38,844 - INFO - Fetching data from SPAWNABLE_ARCHETYPES
+2026-08-27 06:56:38,904 - INFO - Fetching data from SPAWNABLE_ARCHETYPES complete as file SPAWNABLE_ARCHETYPES.parquet
+2026-08-27 06:56:38,905 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is started
+2026-08-27 06:56:52,351 - INFO - Loading into Lakehouse for file SPAWNABLE_ARCHETYPES.parquet is completed
+2026-08-27 06:56:57,352 - INFO - Fetching data from FORECAST_ARCHETYPES
+2026-08-27 06:56:57,389 - INFO - Fetching data from FORECAST_ARCHETYPES complete as file FORECAST_ARCHETYPES.parquet
+2026-08-27 06:56:57,389 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is started
+2026-08-27 06:56:57,660 - INFO - Loading into Lakehouse for file FORECAST_ARCHETYPES.parquet is completed
+2026-08-27 06:57:02,661 - INFO - Fetching data from RETRIBUTION_ARCHETYPES
+2026-08-27 06:57:02,707 - INFO - Fetching data from RETRIBUTION_ARCHETYPES complete as file RETRIBUTION_ARCHETYPES.parquet
+2026-08-27 06:57:02,708 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is started
+2026-08-27 06:57:03,295 - INFO - Loading into Lakehouse for file RETRIBUTION_ARCHETYPES.parquet is completed
+2026-08-27 06:57:08,296 - INFO - Fetching data from KARDS
+2026-08-27 06:57:08,504 - INFO - Fetching data from KARDS complete as file KARDS.parquet
+2026-08-27 06:57:08,504 - INFO - Loading into Lakehouse for file KARDS.parquet is started
+2026-08-27 06:57:08,883 - INFO - Loading into Lakehouse for file KARDS.parquet is completed
+2026-08-27 06:57:13,878 - INFO - Fetching data from SPAWNABLES
+2026-08-27 06:57:13,995 - INFO - Fetching data from SPAWNABLES complete as file SPAWNABLES.parquet
+2026-08-27 06:57:13,996 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is started
+2026-08-27 06:57:14,394 - INFO - Loading into Lakehouse for file SPAWNABLES.parquet is completed
+2026-08-27 06:57:19,395 - INFO - Fetching data from FORECAST
+2026-08-27 06:57:19,459 - INFO - Fetching data from FORECAST complete as file FORECAST.parquet
+2026-08-27 06:57:19,460 - INFO - Loading into Lakehouse for file FORECAST.parquet is started
+2026-08-27 06:57:21,521 - INFO - Loading into Lakehouse for file FORECAST.parquet is completed
+2026-08-27 06:57:26,523 - INFO - Fetching data from EXILE
+2026-08-27 06:57:26,612 - INFO - Fetching data from EXILE complete as file EXILE.parquet
+2026-08-27 06:57:26,613 - INFO - Loading into Lakehouse for file EXILE.parquet is started
+2026-08-27 06:57:26,842 - INFO - Loading into Lakehouse for file EXILE.parquet is completed
+2026-08-27 06:57:31,843 - INFO - Pipeline completed
